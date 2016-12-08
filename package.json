@@ -1,0 +1,20 @@
+{
+  "name": "check-domain",
+  "version": "1.0.0",
+  "description": "Check domain",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "check",
+    "domain"
+  ],
+  "author": "Aral",
+  "license": "MIT",
+  "dependencies": {
+    "async": "^2.1.4",
+    "fs": "0.0.1-security",
+    "request": "^2.79.0"
+  }
+}
