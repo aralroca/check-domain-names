@@ -4,7 +4,11 @@
   "description": "Check domain",
   "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "npm run check-com",
+    "check-io": "node app.js io",
+    "check-com": "node app.js com",
+    "check-es": "node app.js es"
   },
   "keywords": [
     "check",
@@ -13,8 +17,8 @@
   "author": "Aral",
   "license": "MIT",
   "dependencies": {
-    "async": "^2.1.4",
+    "async": "2.6.1",
     "fs": "0.0.1-security",
-    "request": "^2.79.0"
+    "request": "2.88.0"
   }
 }
